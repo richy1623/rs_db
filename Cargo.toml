@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+strum = { version = "0.28", features = ["derive"] }
+thiserror = "2.0.21"
+anyhow = "1.0.104"
+tracing = { version = "0.1.44", features = ["attributes"] }
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
