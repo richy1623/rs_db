@@ -2,7 +2,9 @@ use anyhow::Result;
 
 mod error;
 pub mod meta_command;
+pub mod page;
 pub mod statement;
+pub mod table;
 
 #[derive(Debug)]
 pub struct User {
